@@ -1,5 +1,11 @@
 # Submodules
 
+## Init
+
+```sh
+git submodule update --init --recursive
+```
+
 ## Update
 
 ```sh
