@@ -12,8 +12,8 @@ popd
 ## Configure them with Ansible
 
 ```sh
-export ANSIBLE_CONFIG="$HOME/workbench/homelab-iac/ansible/ansible.cfg"
-ansible-playbook ~/workbench/homelab-iac/ansible/playbooks/bootstrap.yml
+export ANSIBLE_CONFIG="./ansible/ansible.cfg"
+ansible-playbook ./ansible/playbooks/bootstrap.yml
 ```
 
 
