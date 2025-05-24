@@ -14,8 +14,8 @@ git commit -m "Initial commit"
 
 ```sh
 # As `git`
-mkdir /var/www/git/homelab-iac.git
-cd /var/www/git/homelab-iac.git
+mkdir /var/www/git/<repository-name>.git
+cd /var/www/git/<repository-name>.git
 git init --bare
 echo "<Short description of the repo>" > description
 
